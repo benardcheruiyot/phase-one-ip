@@ -54,6 +54,18 @@
     color: white;
     text-decoration: underline;
   }
+  #start {
+    color: white;
+    background-color: #f6510f;
+    border: none;
+    padding: 12px 15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
   @media only screen and (max-width:700px) {
     .imgtxt{
         position: absolute;
