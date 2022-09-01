@@ -54,3 +54,16 @@
     color: white;
     text-decoration: underline;
   }
+  @media only screen and (max-width:700px) {
+    .imgtxt{
+        position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20pt;
+  font-weight: bolder;
+  text-shadow: 10px 10px 10px black;
+  color: #f6510f;
+  text-align: center;
+  }
+}
