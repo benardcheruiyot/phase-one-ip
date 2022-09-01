@@ -88,3 +88,9 @@
   color: white;
   margin: auto 0;
 }
+#email {
+  background-color: white;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 5px;
+}
