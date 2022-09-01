@@ -9,7 +9,7 @@
   }
   .menubar {
     display: flex;
-    background-color: black;
+    background-color: rgb(100, 204, 100);
     color: white;
     justify-content: space-evenly;
     width: 100%;
@@ -70,13 +70,13 @@
 /* --start of footer container-- */
 .footercontainer {
   width: 100%;
-  background-color: #f6510f;
+  background-color: rgb(100, 204, 100);
   margin-bottom: 0;
 }
 .footer1 {
   width: 90%;
   height: 150px;
-  background-color: #f6510f;
+  background-color: rgb(100, 204, 100);
   color: white;
   display: flex;
   flex-direction: row;
