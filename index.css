@@ -68,3 +68,8 @@
   }
 }
 /* --start of footer container-- */
+.footercontainer {
+  width: 100%;
+  background-color: #f6510f;
+  margin-bottom: 0;
+}
