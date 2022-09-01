@@ -106,3 +106,22 @@
   margin-left: auto;
   margin-right: auto;
 }
+#section1 {
+  width: 35%;
+}
+#section1 p {
+  color: white;
+  margin: 18px 0 32px 0;
+}
+
+#section2 {
+  width: 20%;
+}
+#section2 h2 {
+  margin-bottom: 18px;
+}
+#section2 p a {
+  text-decoration: none;
+  color: white;
+  padding-top: 8px;
+}
