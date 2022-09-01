@@ -14,3 +14,16 @@
     justify-content: space-evenly;
     width: 100%;
   }
+  .logo {
+    width: 20%;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .logo p a {
+    font-weight: 700;
+    margin: 0;
+    font-size: 45px;
+    text-decoration: none;
+    color: #f6510f;
+  }
