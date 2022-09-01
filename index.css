@@ -73,3 +73,14 @@
   background-color: #f6510f;
   margin-bottom: 0;
 }
+.footer1 {
+  width: 90%;
+  height: 150px;
+  background-color: #f6510f;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
