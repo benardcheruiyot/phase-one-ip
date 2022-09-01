@@ -27,3 +27,30 @@
     text-decoration: none;
     color: #f6510f;
   }
+  nav {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    /* right: -5%; */
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav ul li {
+    float: left;
+    padding: 10px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  nav ul li a:hover {
+    color: #f6510f;
+  }
+  nav ul li a:active {
+    color: white;
+    text-decoration: underline;
+  }
