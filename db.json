@@ -1,0 +1,41 @@
+{
+  "county": [
+    {
+      "id": 1,
+      "name": "Mombasa",
+      "code": 1,
+      "capital": "Mombasa City"
+    },
+    {
+      "id": 5,
+      "name": "Kajiado",
+      "code": 5,
+      "capital": "kajiado"
+    },
+    {
+      "id": 6,
+      "name": "Taita-Taveta",
+      "code": 6,
+      "capital": "Voi"
+    },
+    {
+      "id": 7,
+      "name": "Kiambu",
+      "code": 7,
+      "capital": "Thika"
+    },
+    {
+      "id": 8,
+      "name": "Kisumu",
+      "code": 8,
+      "capital": "Kisumu"
+    },
+    {
+      "id": 9,
+      "name": "Nairobi",
+      "code": 9,
+      "capital": "Nairobi"
+    }
+    
+  ]
+}

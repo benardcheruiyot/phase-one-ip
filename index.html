@@ -1,39 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online clothes shop</title>
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="index.css" />
+   
+  </head>
+  <body>
+    <div id="onload">
+      <div class="title">
+        <h3><span style="color: #F6510F">CLEFTLIPHOSPITAL</h3>
+      </div>
 
-</head>
-<body>
-  <header>
-    <div class="menubar">
-        <div class="logo">
-        <p> <a href="index.html">PATANGUO</a> </p>
-        </div>
-         <nav>
-            
-        </nav>
-        <div class="navbuttons">
-            <button id="start">Sign Up</button>
-        </div>
+      <div class="nav">
+
+        <ul >
+    
+        <!-- <li> <button class="open-button" onclick="openLoginForm()">Login</button></li> -->
+               <li><button class="open-button" onclick="openSignUpForm()">GETSTARTED</button></li>
+   
+       </ul>
+         
+      
+       <div id="list"> 
+      
+        <button class ="lst" onclick="myFunction()">Choose your location</button>
+       </div>
+        <div id="county"></div>
+        <div class="desc"></div>
+    
+                 
+      </div>
     </div>
-  </header>  
+    
+    <section id="sect3">
+      <div class="form-popup1" id="myForm1">
+        <form  class="form-container" onsubmit="return validateForm()" method="post">
+          <h1>Sign up</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" >
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" >
+          <label for="psw"><b>Confirm Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" >
+      
+          <button type="submit" class="btn"onclick="openSignUpForm()">submitt</button>
+          <button type="button" class="btn cancel" onclick="closeSignUpForm()">Close</button>
+        </form>
+      </div> 
+    </section>
+    
+    <div class="hero-header">
 
-<br>
-<br><br>
-<br><br>
-<br><br>
-<!-- START OF FOOTER -->
+      <img src= "./images/p3.jpeg" width="100%" height="1200px" alt="therapy" />
+      <div class="par"> Reliable, professional otorhinolaryngologists<br>
+      Talk with a licensed, skill otorhinolaryngologists anywhere
+    </div>
+    </div>
+    <div class="content">
+        <section id="sect1">
+      <h3>Help Services</h3>
+      <p>
+        We strive to highlight a handful of the numerous beneficial services we offer.
+        for otorhinolaryngologists who collaborate with our services. No one is paid by us to give their views.
+        They all give their opinions voluntarily and share their review. some individuals
+        Varied people may have different experiences with oral surgery. If you
+        if you would want to provide your otorhinolaryngologist review, send it to
+        <a href="#">contact@doctorhelp.com.</a>
+      </p>
+      <div class="row">
+        
+        <div class="column">
+          <img src="./images/p1.jpeg" with="20%" height="500px" alt="Anger" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="./images/p4.jpeg" with="20%" height="500px" alt="Anxiety" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="./images/p5.jpeg" with="20%" height="500px" alt="Anxiety" style="width:100%">
+        </div>
+      </div> 
+    </section>
+   
+    <section id="sect2">
+        <p>
+      <h4>Our Plans</h4>
+      
+      Making professional otorhinolaryngologist available, inexpensive, and practical so
+      Anyone who needs assistance can do so whenever they need it.
+      anyplace.
+        
+      </p>
+    </section>
+    
+  
+</div>
+<div id="location">
+</div>
 <footer>
     <div class="footercontainer">
         <div class="footer1">
             <div class="newslettertext">
                 <h2>Stay up to date</h2>
-                <p>Subscribe to our newsletter to receive update and learn more about PataNguo.</p>
+                <p>Subscribe to our newsletter to receive update and learn more about CLEFTLIPHOSPITAL.</p>
             </div>
             <div class="newsletter">
                 <input id="email" placeholder="Enter your email address"></input>
@@ -42,8 +117,8 @@
         </div>
         <div class="footer2">
             <div id="section1">
-                <h1>PataNguo</h1>
-                <p>PataNguo is one of the leading wholeseller and retailer clothes<br> companies in Kenya, providing all kind of  <br> fashion to thousands of kenyans and business <br> owners every day!</p>
+                <h1>CLEFTLIPHOSPITAL</h1>
+                <p>CLEFTLIPHOSPITAL is one of the leading otorhinolaryngologist <br> companies in Kenya, providing professional,  <br> reliable,cheap <br> services every day!</p>
                 <h3>© PataNguo 2022</h3>  
             </div>
             <div id="section2">
@@ -55,10 +130,7 @@
                 <p><a href="contact-us.html">Taita Taveta</a></p>
                 <p><a href="contact-us.html">Kajiado</a></p>
             </div>
-            <div id="section2">
-                <h2>Company</h2>
-                <p><a href="products.html">Products</a></p>
-            </div>
+            
             <div id="section2">
                 <h2>Others</h2>
                 <p><a href="#">FAQs</a></p>
@@ -70,9 +142,7 @@
     </div>
 
 </footer>
-<!-- END OF FOOTER -->
-
-
-
-</body>
+  
+        <script src="index.js"></script>
+  </body>
 </html>
